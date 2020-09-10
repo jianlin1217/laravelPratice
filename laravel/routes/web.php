@@ -14,11 +14,3 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('/Duo',function(){
-    return view('test');
-});
-
-Route::get('/Duo2',function(){
-    return view('testchild');
-});
